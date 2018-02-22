@@ -11,7 +11,6 @@ npm start
 then go to http://localhost:3000
 
 
-
 ## Task
 * Add precommit hooks with prettier and js-beautify (also use husky and lint-staged)
 * Create markup for the given psd file
