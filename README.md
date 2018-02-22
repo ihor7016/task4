@@ -24,5 +24,7 @@ then go to http://localhost:3000
 * Do not use bootstrap or any other css libs (except normalize.css)
 * Use normalize.css from CDN
 * Use google fonts
-* Create pull request to master of this repo with your changes
+* Create branch with your surname
+* Create pull request to master of this repo with your changes (do not merge)
 * Get at least 2 approves from your team mates
+
