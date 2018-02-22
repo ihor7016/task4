@@ -18,6 +18,7 @@ then go to http://localhost:3000
 ## Acceptance Criteria
 * Pixel perfect (use https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
 * Code is formatted
+* Site is responsive
 * BEM
 * Do not commit /dist directory !!!
 * Do not use bootstrap or any other css libs (except normalize.css)
