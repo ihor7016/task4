@@ -17,7 +17,7 @@ then go to http://localhost:3000
 * Create markup for the given psd file
 
 ## Acceptance Criteria
-* Pixel perfect
+* Pixel perfect (use https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en)
 * Code is formatted
 * BEM
 * Do not commit /dist directory !!!
