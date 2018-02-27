@@ -16,3 +16,4 @@ then go to http://localhost:3000
 
 ## Task
 * Add precommit hooks with prettier and js-beautify (also use husky and lint-staged)
+* Use https://material.io/components/web/catalog/ to create layouts
