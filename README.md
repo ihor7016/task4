@@ -17,3 +17,4 @@ then go to http://localhost:3000
 ## Task
 * Add precommit hooks with prettier and js-beautify (also use husky and lint-staged)
 * Use https://material.io/components/web/catalog/ (https://material-components-web.appspot.com) to create layouts
+* Use at least 10 different components including drawer, cards, buttons and others 
