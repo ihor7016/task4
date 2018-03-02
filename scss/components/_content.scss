@@ -1,15 +1,10 @@
 .content {
   display: flex;
-  flex: 1 1 auto;
   height: 100%;
   box-sizing: border-box;
 
   &__main {
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 20px;
-
-    box-sizing: border-box;
+    flex: 1 1 auto;
   }
 
   // &__text {

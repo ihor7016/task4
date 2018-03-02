@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Material Components</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.0.0/normalize.css">
+  <!-- <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css"> -->
   <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="dist/style.css">
@@ -14,7 +15,7 @@
 
 <body class="mdc-typography">
   <header class="mdc-toolbar mdc-toolbar--fixed">
-    <div class="mdc-toolbar__row">
+    <div class=" nav-left mdc-toolbar__row">
       <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
         <span class="mdc-toolbar__title">Title</span>
       </section>
@@ -50,11 +51,12 @@
           </a>
         </nav>
       </div>
+
     </nav>
-    <main class="content">
-      <div class="content__main mdc-layout-grid">
+    <main class="content__main">
+      <div class="mdc-layout-grid">
         <div class="mdc-layout-grid__inner">
-          <div class="mdc-card mdc-layout-grid__cell">
+          <div class="mdc-card mdc-layout-grid__cell--span-12">
             <div class="mdc-card__media mdc-card__media--square">
               <div class="mdc-card__media-content">Title</div>
             </div>
@@ -65,118 +67,120 @@
             </button>
           </div>
         </div>
-        <div class="mdc-layout-grid">
-          <div class="mdc-layout-grid__inner">
-            <div class="mdc-card mdc-layout-grid__cell">
-              <div class="mdc-card__media mdc-card__media--square">
-                <div class="mdc-card__media-content">Title</div>
+      </div>
+      <div class="main__features mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+          <div class="main__features-card mdc-card mdc-layout-grid__cell">
+            <div class="mdc-card__media mdc-card__media--square">
+              <div class="main__features-title mdc-card__media-content mdc-typography--title">Title</div>
+            </div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, delectus.</p>
+            <div class="mdc-card__actions">
+              <div class="mdc-card__action-buttons">
+                <button class="mdc-button mdc-card__action mdc-card__action--button">Action</button>
               </div>
-              <!-- ... content ... -->
-              <div class="mdc-card__actions">
-                <div class="mdc-card__action-buttons">
-                  <button class="mdc-button mdc-card__action mdc-card__action--button">Action 1</button>
-                  <button class="mdc-button mdc-card__action mdc-card__action--button">Action 2</button>
-                </div>
-                <div class="mdc-card__action-icons">
-                  <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="Share">share</i>
-                  <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="More options">more_vert</i>
-                </div>
+              <div class="mdc-card__action-icons">
+                <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="Share">share</i>
+                <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="More options">more_vert</i>
               </div>
             </div>
-            <div class="mdc-card mdc-layout-grid__cell">
-              <div class="mdc-card__media mdc-card__media--square">
-                <div class="mdc-card__media-content">Title</div>
+          </div>
+          <div class="main__features-card mdc-card mdc-layout-grid__cell">
+            <div class="mdc-card__media mdc-card__media--square">
+              <div class="main__features-title mdc-card__media-content mdc-typography--title">Title</div>
+            </div>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, delectus.</p>
+            <div class="mdc-card__actions">
+              <div class="mdc-card__action-buttons">
+                <button class="mdc-button mdc-card__action mdc-card__action--button">Action</button>
               </div>
-              <!-- ... content ... -->
-              <div class="mdc-card__actions">
-                <div class="mdc-card__action-buttons">
-                  <button class="mdc-button mdc-card__action mdc-card__action--button">Action 1</button>
-                  <button class="mdc-button mdc-card__action mdc-card__action--button">Action 2</button>
-                </div>
-                <div class="mdc-card__action-icons">
-                  <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="Share">share</i>
-                  <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="More options">more_vert</i>
-                </div>
+              <div class="mdc-card__action-icons">
+                <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="Share">share</i>
+                <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="More options">more_vert</i>
               </div>
             </div>
-            <div class="mdc-card mdc-layout-grid__cell">
-              <div class="mdc-card__media mdc-card__media--square">
-                <div class="mdc-card__media-content">Title</div>
+          </div>
+          <div class="main__features-card mdc-card mdc-layout-grid__cell">
+            <div class="mdc-card__media mdc-card__media--square">
+              <div class="main__features-title mdc-card__media-content mdc-typography--title">Title</div>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam, delectus.</p>
+            <div class="mdc-card__actions">
+              <div class="mdc-card__action-buttons">
+                <button class="mdc-button mdc-card__action mdc-card__action--button">Action</button>
               </div>
-              <!-- ... content ... -->
-              <div class="mdc-card__actions">
-                <div class="mdc-card__action-buttons">
-                  <button class="mdc-button mdc-card__action mdc-card__action--button">Action 1</button>
-                  <button class="mdc-button mdc-card__action mdc-card__action--button">Action 2</button>
-                </div>
-                <div class="mdc-card__action-icons">
-                  <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="Share">share</i>
-                  <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="More options">more_vert</i>
-                </div>
+              <div class="mdc-card__action-icons">
+                <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="Share">share</i>
+                <i class="material-icons mdc-card__action mdc-card__action--icon" tabindex="0" role="button" title="More options">more_vert</i>
               </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <ul class="mdc-list mdc-list--two-line">
-      <li class="mdc-list-item">
-        <span class="mdc-list-item__graphic">
-          <i class="material-icons">mood</i>
-        </span>
-        <span class="mdc-list-item__text">
-          Main text
-          <span class="mdc-list-item__secondary-text">Secondary text</span>
-        </span>
-      </li>
-      <li class="mdc-list-item">
-        <span class="mdc-list-item__graphic">
-          <i class="material-icons">mood</i>
-        </span>
-        <span class="mdc-list-item__text">
-          Main text
-          <span class="mdc-list-item__secondary-text">Secondary text</span>
-        </span>
-      </li>
-      <li class="mdc-list-item">
-        <span class="mdc-list-item__graphic">
-          <i class="material-icons">mood</i>
-        </span>
-        <span class="mdc-list-item__text">
-          Main text
-          <span class="mdc-list-item__secondary-text">Secondary text</span>
-        </span>
-      </li>
-      <li role="separator" class="mdc-list-divider"></li>
-      <li class="mdc-list-item">
-        <span class="mdc-list-item__graphic">
-          <i class="material-icons">mood</i>
-        </span>
-        <span class="mdc-list-item__text">
-          Main text
-          <span class="mdc-list-item__secondary-text">Secondary text</span>
-        </span>
-      </li>
-      <li class="mdc-list-item">
-        <span class="mdc-list-item__graphic">
-          <i class="material-icons">mood</i>
-        </span>
-        <span class="mdc-list-item__text">
-          Main text
-          <span class="mdc-list-item__secondary-text">Secondary text</span>
-        </span>
-      </li>
-      <li class="mdc-list-item">
-        <span class="mdc-list-item__graphic">
-          <i class="material-icons">mood</i>
-        </span>
-        <span class="mdc-list-item__text">
-          Main text
-          <span class="mdc-list-item__secondary-text">Secondary text</span>
-        </span>
-      </li>
-    </ul>
+    <!-- <aside class="nav-right">
+      <ul class="mdc-list mdc-list--two-line">
+        <li class="mdc-list-item">
+          <span class="mdc-list-item__graphic">
+            <i class="material-icons">mood</i>
+          </span>
+          <span class="mdc-list-item__text">
+            Main text
+            <span class="mdc-list-item__secondary-text">Secondary text</span>
+          </span>
+        </li>
+        <li class="mdc-list-item">
+          <span class="mdc-list-item__graphic">
+            <i class="material-icons">mood</i>
+          </span>
+          <span class="mdc-list-item__text">
+            Main text
+            <span class="mdc-list-item__secondary-text">Secondary text</span>
+          </span>
+        </li>
+        <li class="mdc-list-item">
+          <span class="mdc-list-item__graphic">
+            <i class="material-icons">mood</i>
+          </span>
+          <span class="mdc-list-item__text">
+            Main text
+            <span class="mdc-list-item__secondary-text">Secondary text</span>
+          </span>
+        </li>
+        <li role="separator" class="mdc-list-divider mdc-drawer__toolbar-spacer"></li>
+        <li class="mdc-list-item">
+          <span class="mdc-list-item__graphic">
+            <i class="material-icons">mood</i>
+          </span>
+          <span class="mdc-list-item__text">
+            Main text
+            <span class="mdc-list-item__secondary-text">Secondary text</span>
+          </span>
+        </li>
+        <li class="mdc-list-item">
+          <span class="mdc-list-item__graphic">
+            <i class="material-icons">mood</i>
+          </span>
+          <span class="mdc-list-item__text">
+            Main text
+            <span class="mdc-list-item__secondary-text">Secondary text</span>
+          </span>
+        </li>
+        <li class="mdc-list-item">
+          <span class="mdc-list-item__graphic">
+            <i class="material-icons">mood</i>
+          </span>
+          <span class="mdc-list-item__text">
+            Main text
+            <span class="mdc-list-item__secondary-text">Secondary text</span>
+          </span>
+        </li>
+      </ul>
+    </aside> -->
   </div>
+
 </body>
 
 </html>
