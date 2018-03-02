@@ -1,0 +1,9 @@
+.mdc-grid-tile {
+  border-radius: 5px;
+  width: 290px;
+  height: 400px;
+  background-color: rgba(255, 0, 0, 0);
+  &__secondary {
+    width: 250px;
+  }
+}

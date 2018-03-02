@@ -1,0 +1,37 @@
+.footer {
+  border-top: 2px solid #e2e2e2;
+  background-color: #f7f7f7;
+  margin: 0;
+  &__container {
+    margin-top: 0;
+    padding: 0px 12rem 0 12rem;
+  }
+  &__copyright::before {
+    margin: 2px 5px -23px 0;
+  }
+  &__copyright {
+    color: #c1c1c1;
+    font-size: 14px;
+  }
+  &__copyright-text {
+    color: #c1c1c1;
+    font-size: 14px;
+    &-part {
+      color: black;
+      font-size: 14px;
+    }
+  }
+
+  &__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0px 0 0px 0;
+    padding: 0;
+    &-item {
+      margin: 20px 0 20px 0;
+      text-align: left;
+      list-style-type: none;
+    }
+  }
+}

@@ -6,7 +6,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
+    "start": "gulp",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,css,scss}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.html": [
+      "js-beautify -s 2 -r --html",
+      "git add"
+    ]
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +28,10 @@
     "gulp-postcss": "^6.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.2.0",
-    "node-sass": "^3.4.2"
+    "husky": "^0.14.3",
+    "js-beautify": "^1.7.5",
+    "lint-staged": "^7.0.0",
+    "node-sass": "^3.4.2",
+    "prettier": "^1.11.1"
   }
 }

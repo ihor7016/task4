@@ -1,5 +1,5 @@
-
 .shrine-product-card {
+  padding-top: 0;
   margin: 0 auto;
   width: 320px;
   border-radius: 4px;
@@ -8,6 +8,7 @@
   &-card__price {
     display: block;
     text-align: right;
+    margin-top: 0;
   }
   &__image {
     margin: 0 auto;

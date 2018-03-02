@@ -1,12 +1,10 @@
-@import 'variables';
-
-@import "components/body";
+@import "components/_container";
 @import "components/shrine-header";
 @import "components/mdc-toolbar";
 @import "components/shrine-product-card";
-@import "components/shrine-logo";
 @import "components/material-icons";
-@import "components/nav-menu";
 @import "components/mdc-temporary-drawer";
 @import "components/mdc-switch";
-;
+@import "components/mdc-card";
+@import "components/mdc-grid-tile";
+@import "components/footer";
