@@ -1,0 +1,26 @@
+.features {
+  &__card {
+    flex: 1 1 auto;
+    box-sizing: border-box;
+    padding: 8px;
+
+    &:hover {
+      @include mdc-elevation(12, $mdc-theme-primary);
+    }
+  }
+
+  &__media {
+    @for $i from 0 through 3 {
+      &--#{$i} {
+        background: url("../img/pic"+$i+".jpg") center/cover no-repeat;
+      }
+    }
+  }
+
+  &__title {
+    top: auto;
+    padding: 8px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}

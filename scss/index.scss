@@ -1,12 +1,9 @@
 @import "variables";
+@import "material-components-web/material-components-web";
 
-@import "@material/button/mdc-button";
-
-@import "components/page";
 @import "components/content";
-@import "components/text";
-@import "components/button";
 
-@import "components/mdc-card";
-@import "components/main";
+@import "components/search";
 @import "components/nav-left";
+@import "components/promo";
+@import "components/features";
