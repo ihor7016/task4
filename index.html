@@ -1,36 +1,31 @@
 <!doctype html>
-<html class = 'page' lang="en">
+<html class='page' lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Athlets</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet"
-        href="https://unpkg.com/material-components-web@0.9.1/dist/material-components-web.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.9.1/dist/material-components-web.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body class="mdc-typography page">
-  <header class ="header mdc-toolbar mdc-toolbar--fixed mdc-theme--text-primary-on-background">
+  <header class="header mdc-toolbar mdc-toolbar--fixed mdc-theme--text-primary-on-background">
     <div class="mdc-toolbar__row">
       <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-        <a class ="nav-icon material-icons mdc-ripple-surface"  
-            href="#" 
-            aria-label="Click to show the navigation menu"
-            aria-controls="nav-menu"
-            data-mdc-auto-init="MDCRipple"
-            data-mdc-ripple-is-unbounded>menu</a>
+        <a class="nav-icon material-icons mdc-ripple-surface" href="#" aria-label="Click to show the navigation menu" aria-controls="nav-menu" data-mdc-auto-init="MDCRipple" data-mdc-ripple-is-unbounded>menu</a>
         <h1 class="mdc-toolbar__title">Great athlets broke 10s barrier 100m race</h1>
         <div class="mdc-form-field">
-            <input type="input">
-            <label for="input">Search</label>
+          <input type="input">
+          <label for="input">Search</label>
         </div>
       </section>
     </div>
-</header>
+  </header>
   <aside class="nav-menu mdc-temporary-drawer" data-mdc-auto-init="MDCTemporaryDrawer">
     <nav class="mdc-temporary-drawer__drawer">
       <header class="mdc-temporary-drawer__header"></header>
@@ -42,49 +37,38 @@
     </nav>
   </aside>
   <main class="athlets mdc-layout-grid mdc-toolbar-fixed-adjust">
-      <div class="mdc-layout-grid__cell">
-          <div class="mdc-card athlet-card">
-            <img class="image" width="100%" height="300px" src="img/usain.jpg">
-            <p class ="info">Usain St Leo Bolt(born 21 August 1986) is a Jamaican sprinter. 
-              He is the first person to hold both the 100 metres and 200 metres world records since fully 
-              automatic time became mandatory. He is the reigning Olympic champion in these three events.
-              Bolt improved upon his second 100 m world record of 9.69 with 9.58 seconds in 2009. 
-              this record still unbeatable.
-            </p>
-          </div>
+    <div class="mdc-layout-grid__cell">
+      <div class="mdc-card athlet-card">
+        <img class="image" width="100%" height="300px" src="img/usain.jpg">
+        <p class="info">Usain St Leo Bolt(born 21 August 1986) is a Jamaican sprinter. He is the first person to hold both the 100 metres and 200 metres world records since fully automatic time became mandatory. He is the reigning Olympic champion in these three events. Bolt improved upon his second 100 m world record of 9.69 with 9.58 seconds in 2009. this record still unbeatable.
+        </p>
       </div>
-      <div class="mdc-layout-grid__cell">
-        <div class="mdc-card athlet-card">
-          <img class="image" width="100%" height="300px"  src="img/carl.jpg">
-        <p class ="info">Frederick Carlton Lewis (born July 1, 1961) is an American track and field 
-          athlete who won nine Olympic gold medals and 10 World Champs 
-          medals.His career spanned from 1979 to 1996, when he last won an Olympic 
-          event. He is one of only three Olympic athletes who won a gold medal in the same individual 
-          event in four consecutive Olympic Games.</p>
-        </div>
+    </div>
+    <div class="mdc-layout-grid__cell">
+      <div class="mdc-card athlet-card">
+        <img class="image" width="100%" height="300px" src="img/carl.jpg">
+        <p class="info">Frederick Carlton Lewis (born July 1, 1961) is an American track and field athlete who won nine Olympic gold medals and 10 World Champs medals.His career spanned from 1979 to 1996, when he last won an Olympic event. He is one of only three Olympic athletes who won a gold medal in the same individual event in four consecutive Olympic Games.</p>
       </div>
-      <div class="mdc-layout-grid__cell">
-        <div class="mdc-card athlet-card">
-          <img class="image" width="100%" height="300px" src="img/christophe.png">
-          <p class ="info">Christophe Lemaitre (born 11 June 1990) is a French 
-            sprinter who specialises in the 100 and 200 metres. He became the first white person to break
-            the 10-second barrier in an officially timed 100 m event in 2010. He won a bronze medal in the 4 x 100 m 
-              relay at the 2012 London Olympic Games and in the 200 metres at the 2016 Rio Olympic Games. Lemaitre
-              attends University of Savoy</p>
-        </div>
+    </div>
+    <div class="mdc-layout-grid__cell">
+      <div class="mdc-card athlet-card">
+        <img class="image" width="100%" height="300px" src="img/christophe.png">
+        <p class="info">Christophe Lemaitre (born 11 June 1990) is a French sprinter who specialises in the 100 and 200 metres. He became the first white person to break the 10-second barrier in an officially timed 100 m event in 2010. He won a bronze medal in the 4 x 100 m relay at the 2012 London Olympic Games and in the 200 metres at the 2016 Rio Olympic Games. Lemaitre attends University of Savoy</p>
       </div>
-  <button class="mdc-button">
+    </div>
+    <button class="mdc-button">
       <i class="material-icons mdc-button__icon">phone</i>
       Button
   </button>
-  <button class="mdc-button">
+    <button class="mdc-button">
       <i class="material-icons mdc-button__icon">mail outline</i>
       Button
   </button>
-  <button class="mdc-button">
+    <button class="mdc-button">
       <i class="material-icons mdc-button__icon">message</i>
       Button
   </button>
   </main>
 </body>
+
 </html>
