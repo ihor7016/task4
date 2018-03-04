@@ -1,316 +1,90 @@
 <!doctype html>
-<html lang="en">
-
+<html class = 'page' lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Title</title>
+  <title>Athlets</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" sizes="192x192" href="https://material.io/static/images/simple-lp/favicons/components-192x192.png">
-  <link rel="shortcut icon" href="https://material.io/static/images/simple-lp/favicons/components-72x72.png">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/material-components-web@0.9.1/dist/material-components-web.min.css">
-  <link rel="stylesheet" href="app.css">
-  <link rel="stylesheet" href="dist/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet"
+        href="https://unpkg.com/material-components-web@0.9.1/dist/material-components-web.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
-<body>
-  <div class="mdc-typography">
-    <header id="shrine-header" class="mdc-toolbar mdc-toolbar--fixed mdc-theme--text-primary-on-background shrine-header">
-      <div class="mdc-toolbar__row">
-        <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-          <a id="shrine-nav-icon" class="material-icons material-icons__nav-icon" href="#" aria-label="Click to show the navigation menu" aria-controls="shrine-nav-menu">menu</a>
-        </section>
-      </div>
-    </header>
-    <aside id="shrine-nav-menu" class="mdc-temporary-drawer shrine-nav-menu" data-mdc-auto-init="MDCTemporaryDrawer">
-      <nav class="mdc-temporary-drawer__drawer">
-        <nav class="mdc-temporary-drawer__content mdc-list">
-          <a class="mdc-list-item" href="#">Item1</a>
-          <a class="mdc-list-item" href="#">Item2</a>
-          <a class="mdc-list-item" href="#">Item3</a>
-          <a class="mdc-list-item" href="#">Item4</a>
-          <a class="mdc-list-item" href="#">Item5</a>
-          <a class="mdc-list-item" href="#">Item6</a>
-          <a class="mdc-list-item" href="#">Item7</a>
-          <a class="mdc-list-item" href="#">Item8</a>
-          <a class="mdc-list-item" href="#">Item9</a>
-          <a class="mdc-list-item" href="#">Item10</a>
-        </nav>
-      </nav>
-    </aside>
-    <main class="mdc-toolbar-fixed-adjust">
-      <div class="mdc-card shrine-product-card">
-        <section class="mdc-card__primary">
-          <span class="mdc-card__title shrine-product-card__price">Text</span>
-        </section>
-        <img class="shrine-product-card__image" width="240" height="240" alt="text" src="http://via.placeholder.com/240x240">
-        <div class="mdc-switch">
-          <input type="checkbox" id="basic-switch" class="mdc-switch__native-control" />
-          <div class="mdc-switch__background">
-            <div class="mdc-switch__knob"></div>
-            <label for="basic-switch" class="mdc-switch__label">off/on</label>
-          </div>
+<body class="mdc-typography page">
+  <header class ="header mdc-toolbar mdc-toolbar--fixed mdc-theme--text-primary-on-background">
+    <div class="mdc-toolbar__row">
+      <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
+        <a class ="nav-icon material-icons mdc-ripple-surface"  
+            href="#" 
+            aria-label="Click to show the navigation menu"
+            aria-controls="nav-menu"
+            data-mdc-auto-init="MDCRipple"
+            data-mdc-ripple-is-unbounded>menu</a>
+        <h1 class="mdc-toolbar__title">Great athlets broke 10s barrier 100m race</h1>
+        <div class="mdc-form-field">
+            <input type="input">
+            <label for="input">Search</label>
         </div>
-      </div>
-      <div class="mdc-card shrine-product-card">
-        <section class="mdc-card__primary">
-          <span class="mdc-card__title shrine-product-card__price">Text</span>
-        </section>
-        <img class="shrine-product-card__image" width="240" height="240" alt="text" src="http://via.placeholder.com/240x240" ">
-      <div class="mdc-list-group ">
-        <h3 class="mdc-list-group__subheader ">List 1</h3>
-        <ul class="mdc-list ">
-          <li class="mdc-list-item ">
-            <div class="mdc-checkbox ">
-              <input type="checkbox "
-                     class="mdc-checkbox__native-control "/>
-              <div class="mdc-checkbox__background ">
-                <svg class="mdc-checkbox__checkmark "
-                     viewBox="0 0 24 24 ">
-                  <path class="mdc-checkbox__checkmark-path "
-                        fill="none "
-                        stroke="white "
-                        d="M1.73,12.91 8.1,19.28 22.79,4.59 "/>
-                </svg>
-                <div class="mdc-checkbox__mixedmark "></div>
-              </div>
-            </div>
-            line item
-          </li>
-          <li class="mdc-list-item ">
-            <div class="mdc-checkbox ">
-              <input type="checkbox "
-                     class="mdc-checkbox__native-control "/>
-              <div class="mdc-checkbox__background ">
-                <svg class="mdc-checkbox__checkmark "
-                     viewBox="0 0 24 24 ">
-                  <path class="mdc-checkbox__checkmark-path "
-                        fill="none "
-                        stroke="white "
-                        d="M1.73,12.91 8.1,19.28 22.79,4.59 "/>
-                </svg>
-                <div class="mdc-checkbox__mixedmark "></div>
-              </div>
-            </div>
-            line item
-          </li>
-          <li class="mdc-list-item ">
-            <div class="mdc-checkbox ">
-              <input type="checkbox "
-                     class="mdc-checkbox__native-control "/>
-              <div class="mdc-checkbox__background ">
-                <svg class="mdc-checkbox__checkmark "
-                     viewBox="0 0 24 24 ">
-                  <path class="mdc-checkbox__checkmark-path "
-                        fill="none "
-                        stroke="white "
-                        d="M1.73,12.91 8.1,19.28 22.79,4.59 "/>
-                </svg>
-                <div class="mdc-checkbox__mixedmark "></div>
-              </div>
-            </div>
-            line item
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="mdc-card shrine-product-card ">
-      <section class="mdc-card__primary ">
-        <span class="mdc-card__title shrine-product-card__price ">Text</span>
       </section>
-      <img class="shrine-product-card__image " width="240 " height="240 " alt="text "
-           src="http://via.placeholder.com/240x240 "">
-        <div class="mdc-list-group">
-          <h3 class="mdc-list-group__subheader">List 2</h3>
-          <ul class="mdc-list">
-            <li class="mdc-list-item">
-              <div class="mdc-radio">
-                <input class="mdc-radio__native-control" type="radio" id="radio-1" name="radios" checked>
-                <div class="mdc-radio__background">
-                  <div class="mdc-radio__outer-circle"></div>
-                  <div class="mdc-radio__inner-circle"></div>
-                </div>
-              </div>
-              <label id="radio-1-label" for="radio-1">Radio 1</label>
-              <div class="mdc-radio">
-                <input class="mdc-radio__native-control" type="radio" id="radio-2" name="radios">
-                <div class="mdc-radio__background">
-                  <div class="mdc-radio__outer-circle"></div>
-                  <div class="mdc-radio__inner-circle"></div>
-                </div>
-              </div>
-              <label id="radio-2-label" for="radio-2">Radio 2</label></li>
-
-            <li class="mdc-list-item">
-              <div class="mdc-radio">
-                <input class="mdc-radio__native-control" type="radio" id="radio-3" name="radios" checked>
-                <div class="mdc-radio__background">
-                  <div class="mdc-radio__outer-circle"></div>
-                  <div class="mdc-radio__inner-circle"></div>
-                </div>
-              </div>
-              <label id="radio-3-label" for="radio-1">Radio 1</label>
-
-              <div class="mdc-radio">
-                <input class="mdc-radio__native-control" type="radio" id="radio-4" name="radios">
-                <div class="mdc-radio__background">
-                  <div class="mdc-radio__outer-circle"></div>
-                  <div class="mdc-radio__inner-circle"></div>
-                </div>
-              </div>
-              <label id="radio-4-label" for="radio-2">Radio 2</label></li>
-          </ul>
-        </div>
-      </div>
-    </main>
-    <div class="mdc-grid-list mdc-grid-list--twoline-caption">
-      <ul class="mdc-grid-list__tiles">
-        <li class="mdc-grid-tile">
-          <div class="mdc-grid-tile__primary">
-            <img class="mdc-grid-tile__primary-content" src="http://via.placeholder.com/200x200" />
-          </div>
-          <div class="mdc-form-field">
-            <div class="mdc-checkbox">
-              <input type="checkbox" id="my-checkbox1" class="mdc-checkbox__native-control" />
-              <div class="mdc-checkbox__background">
-                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                <path class="mdc-checkbox__checkmark-path"
-                      fill="none"
-                      stroke="white"
-                      d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
-              </svg>
-                <div class="mdc-checkbox__mixedmark"></div>
-              </div>
-            </div>
-            <label for="my-checkbox" id="my-checkbox-label1">This is my checkbox</label>
-          </div>
-
-        </li>
-        <li class="mdc-grid-tile">
-          <div class="mdc-grid-tile__primary">
-            <img class="mdc-grid-tile__primary-content" src="http://via.placeholder.com/200x200" />
-          </div>
-          <div class="mdc-form-field">
-            <div class="mdc-checkbox">
-              <input type="checkbox" id="my-checkbox2" class="mdc-checkbox__native-control" />
-              <div class="mdc-checkbox__background">
-                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                <path class="mdc-checkbox__checkmark-path"
-                      fill="none"
-                      stroke="white"
-                      d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
-              </svg>
-                <div class="mdc-checkbox__mixedmark"></div>
-              </div>
-            </div>
-            <label for="my-checkbox" id="my-checkbox-label2">This is my checkbox</label>
-          </div>
-        </li>
-        <li class="mdc-grid-tile">
-          <div class="mdc-grid-tile__primary">
-            <img class="mdc-grid-tile__primary-content" src="http://via.placeholder.com/200x200" />
-          </div>
-          <div class="mdc-form-field">
-            <div class="mdc-checkbox">
-              <input type="checkbox" id="my-checkbox3" class="mdc-checkbox__native-control" />
-              <div class="mdc-checkbox__background">
-                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                <path class="mdc-checkbox__checkmark-path"
-                      fill="none"
-                      stroke="white"
-                      d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
-              </svg>
-                <div class="mdc-checkbox__mixedmark"></div>
-              </div>
-            </div>
-            <label for="my-checkbox" id="my-checkbox-label3">This is my checkbox</label>
-          </div>
-        </li>
-        <li class="mdc-grid-tile">
-          <div class="mdc-grid-tile__primary">
-            <img class="mdc-grid-tile__primary-content" src="http://via.placeholder.com/200x200" />
-          </div>
-          <div class="mdc-form-field">
-            <div class="mdc-checkbox">
-              <input type="checkbox" id="my-checkbox" class="mdc-checkbox__native-control" />
-              <div class="mdc-checkbox__background">
-                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
-                <path class="mdc-checkbox__checkmark-path"
-                      fill="none"
-                      stroke="white"
-                      d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
-              </svg>
-                <div class="mdc-checkbox__mixedmark"></div>
-              </div>
-            </div>
-            <label for="my-checkbox" id="my-checkbox-label">This is my checkbox</label>
-          </div>
-
-        </li>
-        <li class="mdc-grid-tile">
-          <div class="mdc-grid-tile__primary">
-            <img class="mdc-grid-tile__primary-content" src="http://via.placeholder.com/200x200" />
-          </div>
-          <span class="mdc-grid-tile__secondary">
-        <span class="mdc-grid-tile__title">Title</span>
-          <span class="mdc-grid-tile__support-text">Support text</span>
-          </span>
-        </li>
-        <li class="mdc-grid-tile">
-          <div class="mdc-grid-tile__primary">
-            <img class="mdc-grid-tile__primary-content" src="http://via.placeholder.com/200x200" />
-          </div>
-          <span class="mdc-grid-tile__secondary">
-        <span class="mdc-grid-tile__title">Title</span>
-          <span class="mdc-grid-tile__support-text">Support text</span>
-          </span>
-        </li>
-
-        <li class="mdc-grid-tile">
-          <div class="mdc-grid-tile__primary">
-            <img class="mdc-grid-tile__primary-content" src="http://via.placeholder.com/200x200" />
-          </div>
-          <span class="mdc-grid-tile__secondary">
-        <span class="mdc-grid-tile__title">Title</span>
-          <span class="mdc-grid-tile__support-text">Support text</span>
-          </span>
-        </li>
-        <li class="mdc-grid-tile">
-          <div class="mdc-grid-tile__primary">
-            <img class="mdc-grid-tile__primary-content" src="http://via.placeholder.com/200x200" />
-          </div>
-          <span class="mdc-grid-tile__secondary">
-        <span class="mdc-grid-tile__title">Title</span>
-          <span class="mdc-grid-tile__support-text">Support text </span>
-          </span>
-        </li>
-      </ul>
     </div>
-
-    <footer class="footer">
-      <div class="footer__container">
-        <div class="footer__menu">
-          <div class="footer__menu-item">
-            <p class="footer__copyright-text">
-              <p class="footer__copyright">2014 FFFF</p>
+</header>
+  <aside class="nav-menu mdc-temporary-drawer" data-mdc-auto-init="MDCTemporaryDrawer">
+    <nav class="mdc-temporary-drawer__drawer">
+      <header class="mdc-temporary-drawer__header"></header>
+      <nav class="mdc-temporary-drawer__content mdc-list">
+        <a class="mdc-list-item" href="#">Home</a>
+        <a class="mdc-list-item" href="#">Clothing</a>
+        <a class="mdc-list-item" href="#">Popsicles</a>
+      </nav>
+    </nav>
+  </aside>
+  <main class="athlets mdc-layout-grid mdc-toolbar-fixed-adjust">
+      <div class="mdc-layout-grid__cell">
+          <div class="mdc-card athlet-card">
+            <img class="image" width="100%" height="300px" src="img/usain.jpg">
+            <p class ="info">Usain St Leo Bolt(born 21 August 1986) is a Jamaican sprinter. 
+              He is the first person to hold both the 100 metres and 200 metres world records since fully 
+              automatic time became mandatory. He is the reigning Olympic champion in these three events.
+              Bolt improved upon his second 100 m world record of 9.69 with 9.58 seconds in 2009. 
+              this record still unbeatable.
             </p>
           </div>
-          <div class="footer__menu-item">
-            <p class="footer__copyright-text">Lorem Ipsum:<span class="footer__copyright-text-part"> simply dummy text of the printing and typesetting industry.</span>
-            </p>
-          </div>
+      </div>
+      <div class="mdc-layout-grid__cell">
+        <div class="mdc-card athlet-card">
+          <img class="image" width="100%" height="300px"  src="img/carl.jpg">
+        <p class ="info">Frederick Carlton Lewis (born July 1, 1961) is an American track and field 
+          athlete who won nine Olympic gold medals and 10 World Champs 
+          medals.His career spanned from 1979 to 1996, when he last won an Olympic 
+          event. He is one of only three Olympic athletes who won a gold medal in the same individual 
+          event in four consecutive Olympic Games.</p>
         </div>
       </div>
-    </footer>
-
-    <script src="https://unpkg.com/material-components-web@0.9.1/dist/material-components-web.min.js">
-    </script>
-    <script src="code.js"></script>
-  </div>
+      <div class="mdc-layout-grid__cell">
+        <div class="mdc-card athlet-card">
+          <img class="image" width="100%" height="300px" src="img/christophe.png">
+          <p class ="info">Christophe Lemaitre (born 11 June 1990) is a French 
+            sprinter who specialises in the 100 and 200 metres. He became the first white person to break
+            the 10-second barrier in an officially timed 100 m event in 2010. He won a bronze medal in the 4 x 100 m 
+              relay at the 2012 London Olympic Games and in the 200 metres at the 2016 Rio Olympic Games. Lemaitre
+              attends University of Savoy</p>
+        </div>
+      </div>
+  <button class="mdc-button">
+      <i class="material-icons mdc-button__icon">phone</i>
+      Button
+  </button>
+  <button class="mdc-button">
+      <i class="material-icons mdc-button__icon">mail outline</i>
+      Button
+  </button>
+  <button class="mdc-button">
+      <i class="material-icons mdc-button__icon">message</i>
+      Button
+  </button>
+  </main>
 </body>
-
 </html>
