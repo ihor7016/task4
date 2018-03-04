@@ -1,66 +1,63 @@
-
 .page {
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    background-image: url("assets/bg.jpeg");
-    background-color: #e6e6e6;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-  .athlet-card {
-    width: 320px;
-    height: 500px;
-    border-radius: 4px;
-    margin-bottom: 8px;
-    background-color: white;
-  }
-  .image {
-    margin: 0 auto;
-  }
-  .header {
-    background-color: var(--mdc-theme-background);
-    color: var(--mdc-theme-text-primary-on-background);
-  }
-  .nav-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 40px;
-    text-decoration: none;
-  }
-  .nav-menu .mdc-temporary-drawer__drawer {
-    background-color: #fafafa;
-  }
-  .mdc-temporary-drawer__header {
-    background: url(assets/logo.png) 32px 32px no-repeat;
-    background-size: 30%;
-  }
-  .mdc-temporary-drawer__header::before {
-    padding-top: 30%;
-  }
-  
-  .mdc-temporary-drawer__content {
-    background: url(assets/diamond.svg) -32px bottom no-repeat;
-    background-size: 50%;
-  }
-  
-  .mdc-list-item {
-    height: 32px;
-    padding-left: 32px;
-    letter-spacing: .2em;
-  }
-  .athlets .mdc-layout-grid__cell {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .mdc-form-field{
-    margin-left: 25%;
-  }
-  .mdc-button{
-    margin-top: 60%;
-    color:black;
-  }
-  
-  
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("assets/bg.jpeg");
+  background-color: #e6e6e6;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.athlet-card {
+  width: 320px;
+  height: 500px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: white;
+}
+.image {
+  margin: 0 auto;
+}
+.header {
+  background-color: var(--mdc-theme-background);
+  color: var(--mdc-theme-text-primary-on-background);
+}
+.nav-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+.nav-menu .mdc-temporary-drawer__drawer {
+  background-color: #fafafa;
+}
+.mdc-temporary-drawer__header {
+  background: url(assets/logo.png) 32px 32px no-repeat;
+  background-size: 30%;
+}
+.mdc-temporary-drawer__header::before {
+  padding-top: 30%;
+}
+
+.mdc-temporary-drawer__content {
+  background: url(assets/diamond.svg) -32px bottom no-repeat;
+  background-size: 50%;
+}
+
+.mdc-list-item {
+  height: 32px;
+  padding-left: 32px;
+  letter-spacing: 0.2em;
+}
+.athlets .mdc-layout-grid__cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mdc-form-field {
+  margin-left: 25%;
+}
+.mdc-button {
+  margin-top: 60%;
+  color: black;
+}
